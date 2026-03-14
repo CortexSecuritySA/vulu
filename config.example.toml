@@ -1,0 +1,20 @@
+# Copy this file to config.toml and adjust for your environment.
+# Add your targets below or use `vulu discover` to find them automatically.
+
+[common]
+ssh_key_path = "~/.ssh/id_ed25519"
+known_hosts_path = "~/.ssh/known_hosts"
+ssh_timeout_seconds = 30
+command_timeout_seconds = 60
+max_connections = 10
+cve_requests_per_second = 50
+
+# [targets.myserver1]
+# host = "192.168.1.10"
+# port = "22"
+# user = "admin"
+
+# [targets.myserver2]
+# host = "192.168.1.12"
+# port = "2222"
+# user = "root"
